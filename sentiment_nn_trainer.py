@@ -29,8 +29,8 @@ for dir in dirs:
     ct += 1
 
 
-dirs = [os.path.join('data', 'test', 'neg'),\
-        os.path.join('data', 'test', 'pos')]
+dirs = [os.path.join('data', 'movie-sentiment', 'test', 'neg'),\
+        os.path.join('data', 'movie-sentiment', 'test', 'pos')]
 ct = 0
 
 for dir in dirs:
